@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  text = 'Default'
+    onChangeText() {
+        this.text = "Changed"
+    }
 }
